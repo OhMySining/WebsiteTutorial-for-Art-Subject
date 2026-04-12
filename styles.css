@@ -9,8 +9,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .navigation-bar img {
     width: 33px;
@@ -46,8 +46,8 @@ body {
     margin-top: 5px;
 }
 .introduction {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .introduction img {
     width: 60px;
@@ -64,8 +64,8 @@ body {
 .introduction-infos-flex {
     display: flex;
     gap: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .introduction-infos {
     width: 60%;
@@ -92,7 +92,18 @@ body {
     }
 }
 .lessons-header {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
     border-bottom: 1px solid black;
+}
+.lessons-browse {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    img {
+        width: 20px;
+        height: 20px;
+    }
 }
