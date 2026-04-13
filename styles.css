@@ -200,8 +200,11 @@ body {
     box-shadow: 
     -6px 6px 0px 0px white,     
     -7px 7px 0px 0px black;
+    display: flex;
+    flex-direction: column;
 }
 .select-box-lesson p {
+    margin-top: -8px;
     font-size: 14px;
 }
 .select-box-lesson h5 {
@@ -209,6 +212,14 @@ body {
     padding: 5px;
     margin-left: -10px;
     margin-right: -20px;
+}
+.select-box-lesson h6 {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin-top: auto;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .footer {
     margin-top: 10px;
