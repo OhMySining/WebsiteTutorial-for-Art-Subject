@@ -103,12 +103,21 @@ body {
     margin-left: 120px;
     margin-right: 120px;
     border-bottom: 1px solid black;
+    margin-bottom: 15px;
 }
 .lessons-browse {
     margin-left: 120px;
     margin-right: 120px;
+    width: 19%;
+    max-height: 600px;
+    overflow-y: auto;
+    padding: 16px;
+    box-sizing: border-box;
 }
 .lessons-browse-left {
+    p {
+        margin-left: 40px;
+    }
     display: flex;
     align-items: center;
     gap: 10px;
@@ -116,4 +125,12 @@ body {
         width: 20px;
         height: 20px;
     }
+}
+.lessons-list ul {
+    border-bottom: 1px solid black;
+    margin-top: -10px;
+    padding: 10px;
+}
+.lessons-list ol {
+    padding: 10px;
 }
