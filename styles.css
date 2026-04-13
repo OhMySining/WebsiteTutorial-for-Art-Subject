@@ -143,11 +143,14 @@ body {
 .lessons-list ol {
     padding: 10px;
 }
+.lessons-all {
+    margin-left: 20px;
+}
 .lesson-search {
     display: flex;
     gap: 10px;
-    margin-left: 20px;
     align-items: center;
+    margin-bottom: 15px;
 }
 .lesson-search-text,
 .lesson-search-sub {
@@ -176,4 +179,20 @@ body {
     height: 25px;
     margin: 0;
     padding: 0;
+}
+.select-box-lesson {
+    width: 25%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.select-box-lesson p {
+    font-size: 14px;
+}
+.select-box-lesson h5 {
+    margin: -0px;
+    background-color: pink;
+    padding: 5px;
+    margin-left: -10px;
 }
