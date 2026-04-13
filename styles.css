@@ -221,6 +221,26 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+.quiz-button {
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.quiz-button img {
+    width: 25px;
+    height: 25px;
+}
+.quiz-button p {
+    margin: 0;
+}
+.quiz-button a {
+    text-decoration: none;
+    color: black;
+}
 .footer {
     margin-top: 10px;
     font-size: 14px;
