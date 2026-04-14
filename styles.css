@@ -275,3 +275,58 @@ body {
     color: black;
     text-decoration: none;
 }
+.textile-bg {
+    padding: 20px;
+    background-image: url(assets/images/texting-bg.jpg);
+}
+.lesson-box-intro {
+    background-color: antiquewhite;
+    width: 65%;
+    height: 410px;
+    margin-left: 17.5%;
+    border-radius: 4px;
+}
+.lesson-intro {
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+}
+.lesson-introduction {
+    width: 65%;
+    padding-right: 10px;
+}
+.lesson-path-box {
+    margin-top: 30px;
+    height: 70%;
+    width: 30%;
+    border: 1px solid black;
+    padding: 25px;
+    padding-top: 15px;
+    box-shadow: 
+    6px 6px 0px 0px antiquewhite,     
+    7px 7px 0px 0px black;
+}
+.lesson-path-box .sub-topics {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.sub-topics img {
+    width: 25px;
+    height: 25px;
+}
+.lesson-path-box p {
+    padding-bottom: 10px;
+}
+.read-more-button {
+    background-color: blue;
+    border-radius: 4px;
+    margin-left: 3%;
+    width: 120px;
+    margin-top: -10px;
+}
+.read-more-button p {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
