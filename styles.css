@@ -406,3 +406,39 @@ body {
     text-decoration: none;
     color: white;
 }
+.picture-desc-flex {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 35px
+}
+.picture-desc {
+    display: flex;
+    width: 40%;
+    height: 305px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 
+    6px 6px 0px 0px white,     
+    7px 7px 0px 0px black;
+}
+.picture-desc-img {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.picture-desc-img h4 {
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    background-color: lightcoral;
+}
+.picture-desc-img img {
+    margin-bottom: -5px;
+    width: 250px;
+    height: 250px;
+}
+.desc-text {
+    padding: 10px;
+}
