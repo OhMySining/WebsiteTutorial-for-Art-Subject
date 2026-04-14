@@ -278,12 +278,15 @@ body {
 .textile-bg {
     padding: 20px;
     background-image: url(assets/images/texting-bg.jpg);
+    display: flex;
+    justify-content: center;
 }
 .lesson-box-intro {
     background-color: antiquewhite;
     width: 65%;
+    max-width: 1000px;
     height: 410px;
-    margin-left: 17.5%;
+    margin: 0 auto;
     border-radius: 4px;
 }
 .lesson-intro {
@@ -309,24 +312,89 @@ body {
 .lesson-path-box .sub-topics {
     display: flex;
     align-items: center;
+    gap: 10px;
     border-bottom: 1px solid black;
+    padding: 10px 0;
 }
 .sub-topics img {
     width: 25px;
     height: 25px;
+    padding: 0;
 }
-.lesson-path-box p {
-    padding-bottom: 10px;
+.lesson-path-box .sub-topics p {
+    margin: 0;
+    line-height: 1.4;
 }
 .read-more-button {
     background-color: blue;
     border-radius: 4px;
     margin-left: 3%;
     width: 120px;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 .read-more-button p {
     text-align: center;
     padding: 10px;
     color: white;
+}
+.about-this-lesson {
+    margin-top:25px;
+    width: 40%;
+    margin-left: 20%;
+}
+.about-this-lesson p {
+    line-height: 25px;
+}
+.objective-box {
+    margin-left: 20%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+.objective-top {
+    border-bottom: 1px solid black;
+}
+.objective-box .info-ul .infos {
+    display: flex;
+    gap: 20px;
+}
+.info-ul {
+    margin-top: -20px;
+    display: flex;
+    gap: 50px
+}
+.info-ul p {
+    margin-left: 430px;
+}
+.objective-text {
+    padding-top: 15px;
+    border-bottom: 1px solid black;
+}
+.objective-text ul {
+    margin-top: -12px;
+}
+.objective-intro {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.objective-intro img {
+    width: 25px;
+    height: 25px;
+}
+.objective-text li {
+    padding-top: 15px;
+}
+.obj-quiz {
+    margin-top: -10px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    width: 130px;
+}
+.obj-quiz p {
+    padding: 10px;
+    text-align: center;
 }
