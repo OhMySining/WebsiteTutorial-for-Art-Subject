@@ -590,3 +590,47 @@ body {
     color: green;
     font-weight: bold;
 }
+
+/* Table Specific Styling */
+.data-table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.custom-table th {
+    background-color: cadetblue; /* Matches your quiz buttons */
+    color: white;
+    padding: 12px;
+    border: 1px solid black;
+    text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.custom-table td {
+    padding: 12px;
+    border: 1px solid black;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* For the descriptive text below tables */
+.table-footer-note {
+    margin-top: 15px;
+    font-size: 13px;
+    font-style: italic;
+    border-left: 3px solid black;
+    padding-left: 10px;
+}
